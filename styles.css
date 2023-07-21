@@ -57,7 +57,7 @@ section {
 }
 
 .grid-container > div p:last-child {
-    opacity: 70%;
+    opacity: 30%;
     font-size: 13px;
     text-align: justify;
 }
@@ -71,7 +71,7 @@ section {
 }
 
 .daniel-card img {
-    border: 2px solid hsl(263, 83%, 71%);
+    border: 3px solid hsl(263, 83%, 71%);
 }
 
 .jonathan-card {
@@ -91,7 +91,7 @@ section {
 }
 
 .patrick-card img {
-    border: 2px solid hsl(263, 83%, 71%);
+    border: 3px solid hsl(263, 83%, 71%);
 }
 
 @media screen and (max-width: 768px) {
