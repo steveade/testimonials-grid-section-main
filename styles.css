@@ -13,14 +13,6 @@ body {
     font-size: 21.2px;
 }
 
-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
-}
-
 .grid-container {
     margin: 60px 0;
 }
@@ -95,12 +87,23 @@ section {
 }
 
 @media screen and (max-width: 768px) {
+    .grid-container {
+        margin: 80px 10px;
+    }
     .grid-container > div {
         height: fit-content;
+        margin-bottom: 30px;
     }
 }
 
 @media screen and (min-width: 769px) {
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+    }
 
     .grid-container {
         display: grid;
