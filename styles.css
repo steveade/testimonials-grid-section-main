@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: inherit;
+}
+
+body {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-size: 21.2px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.grid-container {
+    margin: 60px 0;
+}
+
+.grid-container > div {
+    margin: 15px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+.grid-container img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.grid-container > div > div {
+    margin-bottom: 20px;
+}
+
+.grid-container > div > div:first-child {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 13px;
+}
+
+.grid-container > div > div:last-child {
+    font-size: 13px;
+    opacity: 50%;
+    line-height: 1.5em;
+    margin-bottom: 0px;
+}
+
+.grid-container > div p:last-child {
+    opacity: 70%;
+    font-size: 13px;
+    text-align: justify;
+}
+
+.daniel-card {
+    background: url(./images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 80% top;
+    background-color: hsl(263, 55%, 52%);
+    color: hsl(0, 0%, 100%);
+}
+
+.daniel-card img {
+    border: 2px solid hsl(263, 83%, 71%);
+}
+
+.jonathan-card {
+    background-color: hsl(217, 19%, 35%);
+    color: hsl(0, 0%, 100%);
+}
+
+.jeanette-card,
+.kira-card {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(219, 29%, 14%);
+}
+
+.patrick-card {
+    background-color: hsl(219, 29%, 14%);
+    color: hsl(0, 0%, 100%);
+}
+
+.patrick-card img {
+    border: 2px solid hsl(263, 83%, 71%);
+}
+
+@media screen and (max-width: 768px) {
+    .grid-container > div {
+        height: fit-content;
+    }
+}
+
+@media screen and (min-width: 769px) {
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 275px);
+        grid-template-rows: 325px 310px
+    }
+
+    .daniel-card {
+        grid-column: 1 / span 2;
+        grid-row: 1
+    }
+
+    .jonathan-card {
+        grid-column: 3;
+        grid-row: 1;
+    }
+
+    .kira-card {
+        grid-column: 4;
+        grid-row: 1 / span 2;
+    }
+
+    .jeanette-card {
+        grid-column: 1;
+        grid-row: 2 / span 1;
+    }
+
+    .patrick-card {
+        grid-column: 2 / span 2;
+        grid-row: 2;
+    }
+}
