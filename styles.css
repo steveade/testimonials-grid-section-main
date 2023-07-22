@@ -20,7 +20,7 @@ body {
 
 .grid-container > div {
     margin: 15px;
-    padding: 20px 34px;
+    padding: 22px 40px;
     border-radius: 10px;
     box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
 }
@@ -32,7 +32,7 @@ body {
 }
 
 .grid-container > div > div {
-    margin-bottom: 15px;
+    margin-bottom: 22px;
 }
 
 .grid-container > div > div:first-child {
@@ -67,29 +67,17 @@ body {
     color: hsl(0, 0%, 100%);
 }
 
-div.daniel-card {
-    padding-top: 18px;
-}
-
 .daniel-card img {
     border: 3px solid hsl(263, 83%, 71%);
 }
 
-.jonathan-card {
+div.jonathan-card {
     background-color: hsl(217, 19%, 35%);
     color: hsl(0, 0%, 100%);
 }
 
 .jeanette-card > div:nth-child(2) {
     width:90%;
-}
-
-div.kira-card {
-    padding-top: 18px;
-}
-
-.kira-card > div:nth-child(2) {
-    margin-bottom: 25px;
 }
 
 .jeanette-card,
