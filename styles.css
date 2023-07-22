@@ -19,7 +19,7 @@ body {
 }
 
 .grid-container > div {
-    margin: 15px;
+    margin: 15px 20px;
     padding: 25px 30px;
     border-radius: 10px;
     box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
@@ -107,6 +107,10 @@ div.jonathan-card {
 
 .patrick-card img {
     border: 3px solid hsl(263, 83%, 71%);
+}
+
+.patrick-card > div:last-child {
+    width: 98%;
 }
 
 @media screen and (max-width: 768px) {
