@@ -20,7 +20,7 @@ body {
 
 .grid-container > div {
     margin: 15px;
-    padding: 22px 40px;
+    padding: 25px 40px;
     border-radius: 10px;
     box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
 }
@@ -32,7 +32,7 @@ body {
 }
 
 .grid-container > div > div {
-    margin-bottom: 22px;
+    margin-bottom: 20px;
 }
 
 .grid-container > div > div:first-child {
@@ -134,10 +134,6 @@ div.jonathan-card {
         grid-column: 4;
         grid-row: 1 / span 2;
         width: 263px;
-    }
-
-    div.kira-card > div {
-        margin-bottom: 15px;
     }
 
     .jeanette-card {
