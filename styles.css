@@ -20,7 +20,7 @@ body {
 
 .grid-container > div {
     margin: 15px;
-    padding: 25px 40px;
+    padding: 25px 35px;
     border-radius: 10px;
     box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
 }
@@ -33,6 +33,10 @@ body {
 
 .grid-container > div > div {
     margin-bottom: 20px;
+}
+
+.grid-container > div > div:first-child {
+    margin-bottom: 18px;
 }
 
 .grid-container > div > div:first-child {
@@ -76,8 +80,12 @@ div.jonathan-card {
     color: hsl(0, 0%, 100%);
 }
 
-.jeanette-card > div:nth-child(2) {
+.jeanette-card > div:nth-child(2){
     width:90%;
+}
+
+.daniel-card > div:nth-child(2) {
+    width: 95%;
 }
 
 .jeanette-card,
