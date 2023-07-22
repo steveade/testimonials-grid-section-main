@@ -20,7 +20,7 @@ body {
 
 .grid-container > div {
     margin: 15px;
-    padding: 25px 35px;
+    padding: 25px 30px;
     border-radius: 10px;
     box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
 }
@@ -36,16 +36,12 @@ body {
 }
 
 .grid-container > div > div:first-child {
-    margin-bottom: 18px;
-}
-
-.grid-container > div > div:first-child {
     display: flex;
     gap: 10px;
     align-items: center;
     font-size: 13px;
+    margin-bottom: 18px;
 }
-
 .grid-container > div > div:nth-child(2) {
     font-weight: 600;
 }
@@ -53,7 +49,7 @@ body {
 .grid-container > div > div:last-child {
     font-size: 13px;
     opacity: 70%;
-    line-height: 18px;
+    line-height: 19px;
     margin-bottom: 0px;
 }
 
@@ -86,6 +82,16 @@ div.jonathan-card {
 
 .daniel-card > div:nth-child(2) {
     width: 95%;
+}
+
+.jeanette-card, 
+.patrick-card {
+    padding-top: 20px;
+}
+
+.jeanette-card > div:first-child,
+.patrick-card > div:first-child {
+    margin-bottom: 20px;
 }
 
 .jeanette-card,
