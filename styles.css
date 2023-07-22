@@ -10,7 +10,8 @@
 
 body {
     font-family: "Barlow Semi Condensed", sans-serif;
-    font-size: 21.2px;
+    font-size: 19px;
+    background-color:  hsl(210, 46%, 95%);
 }
 
 .grid-container {
@@ -19,7 +20,7 @@ body {
 
 .grid-container > div {
     margin: 15px;
-    padding: 25px;
+    padding: 20px 34px;
     border-radius: 10px;
     box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
 }
@@ -39,6 +40,10 @@ body {
     gap: 10px;
     align-items: center;
     font-size: 13px;
+}
+
+.grid-container > div > div:nth-child(2) {
+    font-weight: 600;
 }
 
 .grid-container > div > div:last-child {
@@ -69,6 +74,10 @@ body {
 .jonathan-card {
     background-color: hsl(217, 19%, 35%);
     color: hsl(0, 0%, 100%);
+}
+
+.jeanette-card > div:nth-child(2) {
+    width:90%;
 }
 
 .jeanette-card,
@@ -107,8 +116,8 @@ body {
 
     .grid-container {
         display: grid;
-        grid-template-columns: repeat(4, 275px);
-        grid-template-rows: 325px 310px
+        grid-template-columns: repeat(4, 280px);
+        grid-template-rows: 315px 300px
     }
 
     .daniel-card {
@@ -124,6 +133,11 @@ body {
     .kira-card {
         grid-column: 4;
         grid-row: 1 / span 2;
+        width: 263px;
+    }
+
+    div.kira-card > div {
+        margin-bottom: 15px;
     }
 
     .jeanette-card {
