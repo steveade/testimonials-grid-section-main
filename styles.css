@@ -32,7 +32,7 @@ body {
 }
 
 .grid-container > div > div {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .grid-container > div > div:first-child {
@@ -49,7 +49,7 @@ body {
 .grid-container > div > div:last-child {
     font-size: 13px;
     opacity: 70%;
-    line-height: 1.5em;
+    line-height: 1.2em;
     margin-bottom: 0px;
 }
 
@@ -67,6 +67,10 @@ body {
     color: hsl(0, 0%, 100%);
 }
 
+div.daniel-card {
+    padding-top: 30px;
+}
+
 .daniel-card img {
     border: 3px solid hsl(263, 83%, 71%);
 }
@@ -78,6 +82,10 @@ body {
 
 .jeanette-card > div:nth-child(2) {
     width:90%;
+}
+
+div.kira-card {
+    padding-top: 30px;
 }
 
 .jeanette-card,
@@ -117,7 +125,7 @@ body {
     .grid-container {
         display: grid;
         grid-template-columns: repeat(4, 280px);
-        grid-template-rows: 315px 300px
+        grid-template-rows: 310px 300px
     }
 
     .daniel-card {
