@@ -49,7 +49,7 @@ body {
 .grid-container > div > div:last-child {
     font-size: 13px;
     opacity: 70%;
-    line-height: 16.5px;
+    line-height: 18px;
     margin-bottom: 0px;
 }
 
@@ -68,7 +68,7 @@ body {
 }
 
 div.daniel-card {
-    padding-top: 30px;
+    padding-top: 18px;
 }
 
 .daniel-card img {
@@ -85,7 +85,7 @@ div.daniel-card {
 }
 
 div.kira-card {
-    padding-top: 30px;
+    padding-top: 18px;
 }
 
 .kira-card > div:nth-child(2) {
@@ -128,8 +128,8 @@ div.kira-card {
 
     .grid-container {
         display: grid;
-        grid-template-columns: repeat(4, 280px);
-        grid-template-rows: 300px 280px
+        grid-template-columns: repeat(4, 290px);
+        grid-template-rows: 310px 290px
     }
 
     .daniel-card {
