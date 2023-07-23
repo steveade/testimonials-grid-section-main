@@ -113,7 +113,7 @@ div.jonathan-card {
     width: 98%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
     .grid-container {
         margin: 80px 10px;
     }
@@ -123,7 +123,7 @@ div.jonathan-card {
     }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1201px) {
     section {
         display: flex;
         justify-content: center;
